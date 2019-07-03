@@ -18,7 +18,7 @@ public class calculator
 					
 					break;
 				case 2:
-					a - b;
+					System.out.printf("%lf - %lf = %lf\n", a, b, a-b);
 					break;
 				case 3:
 					

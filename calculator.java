@@ -2,8 +2,10 @@ java.util.Scanner;
 
 public class calculator
 {
+
 	public static void main(String argv[])
 	{
+
 
 		public double div(double a, double b){
 			double result;
@@ -41,7 +43,7 @@ public class calculator
 			double a, b;
 			switch (menu) {
 				case 1:
-					
+					addCal(a,b);
 					break;
 				case 2:
 					System.out.printf("%lf - %lf = %lf\n", a, b, a-b);
@@ -64,5 +66,12 @@ public class calculator
 			}
 		}
 
+
+
+	public double addCal(double a, double b){
+
+		return a+b;
+
 	}
+
 }

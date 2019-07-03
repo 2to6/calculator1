@@ -5,7 +5,9 @@ public class calculator
 	public static void main(String argv[])
 	{
 		Scanner scan = new Scanner(System.in);
-		double ab;
-		ab = scan.nextDouble();
+		double a;
+		dobule b;
+		a = scan.nextDouble();
+		b = scan.nextDouble();
 	}
 }

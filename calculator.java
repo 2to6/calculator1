@@ -12,12 +12,13 @@ public class calculator
 			System.out.println("0. 시스템 종료");
 			System.out.println("=================");
 			int menu;
+			int a, b;
 			switch (menu) {
 				case 1:
 					
 					break;
 				case 2:
-					
+					a - b;
 					break;
 				case 3:
 					

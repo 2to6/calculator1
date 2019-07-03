@@ -12,7 +12,7 @@ public class calculator
 			System.out.println("0. 시스템 종료");
 			System.out.println("=================");
 			int menu;
-			int a, b;
+			double a, b;
 			switch (menu) {
 				case 1:
 					

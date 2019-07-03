@@ -50,7 +50,7 @@ public class calculator
 					
 					break;
 				case 4:
-					
+					div(a,b);
 					break;
 				case 5:
 					

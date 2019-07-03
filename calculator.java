@@ -20,8 +20,6 @@ public class calculator
 
 			return result;
 		}
-	
-
 
 
 		Scanner scan = new Scanner(System.in);
@@ -55,6 +53,20 @@ public class calculator
 					div(a,b);
 					break;
 				case 5:
+          Scanner scan = new Scanner(System.in);
+
+          System.out.println(">>> 제곱 계산기 <<<");
+          System.out.println("밑을 입력하세요.");
+
+          double numberBottom = scan.nextInt();
+          scan.nextLine();
+
+          System.out.println("지수를 입력하세요.");
+          double numberIndex = scan.nextInt();
+          scan.nextLine();
+
+          double numberResult = Math.pow(numberBottom,numberIndex);
+          System.out.println("계산 결과 : " + numberResult);
 					
 					break;
 				case 6:
@@ -65,13 +77,10 @@ public class calculator
 					break;
 			}
 		}
-
-
-
+    
 	public double addCal(double a, double b){
 
 		return a+b;
 
 	}
-
 }

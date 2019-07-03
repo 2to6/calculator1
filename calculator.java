@@ -8,6 +8,7 @@ public class calculator
 		System.out.println("3. 곱하기");
 		System.out.println("4. 나누기");
 		System.out.println("5. 제곱");
+		System.out.println("0. 시스템 종료");
 		System.out.println("=================");
 	}
 }
